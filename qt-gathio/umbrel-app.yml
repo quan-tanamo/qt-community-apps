@@ -2,7 +2,7 @@ manifestVersion: 1
 id: qt-gathio
 name: Gathio
 tagline: a simple, federated, privacy-first event hosting platform
-icon: https://github.com/lowercasename/gathio/blob/main/public/images/gathio-email-logo.gif
+icon: https://github.com/qt-community-apps/qt-gathio/gathio-email-logo.png
 category: Social
 version: "1.6.0"
 port: 3000
