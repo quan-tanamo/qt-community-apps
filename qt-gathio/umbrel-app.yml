@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: qt-gathio
+name: Gathio
+tagline: a simple, federated, privacy-first event hosting platform
+icon: https://github.com/lowercasename/gathio/blob/main/public/images/gathio-email-logo.gif
+category: Social
+version: "1.6.0"
+port: 3000
+description: >-
+  A simple, federated, privacy-first event hosting platform.
+
+developer: Gathio
+website: https://gath.io/
+submitter: quan-tanamo
+submission: https://github.com/qt-community-apps/qt-gathio
+repo: https://github.com/qt-community-apps/qt-gathio
+support: https://github.com/qt-community-apps/qt-gathio/issues
+gallery:
+  - https://github.com/lowercasename/gathio/blob/main/public/images/example-event.png
+  - https://github.com/lowercasename/gathio/blob/main/public/images/facebook-export.png
+releaseNotes: >-
+  https://github.com/lowercasename/gathio/releases
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

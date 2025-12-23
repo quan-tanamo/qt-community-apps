@@ -1,0 +1,20 @@
+volumes:
+  mongodb_data_db:
+
+services:
+  gathio:
+    container_name: gathio-app
+    image: ghcr.io/lowercasename/gathio:latest
+    links:
+      - mongo
+    ports:
+      - 3000:3000
+    volumes:
+      - ${APP_DATA_DIR}/config:/app/config
+      - ${APP_DATA_DIR}/static:/app/static
+      - ${APP_DATA_DIR}/images:/app/public/events
+  mongo:
+    container_name: gathio-db
+    image: mongo:latest
+    volumes:
+      - mongodb_data_db:/data/db
